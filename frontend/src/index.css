@@ -1,0 +1,161 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: black;
+}
+
+.menu{
+  background: transparent !important;
+  color: black;
+  box-shadow: none !important;
+}
+.menu-item button a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold !important;
+
+  margin: 0px 35px;
+  font-family: 'Hind', sans-serif;
+  
+  font-size: 18px;
+}
+.menu-item button:hover{
+  background: transparent !important;
+}
+.menu-item a:hover{
+  color:#05297F;
+}
+.icon-hover button:hover{
+  background: transparent ;
+}
+.icon-hover a{
+  background: transparent ;
+  color: #05297F ;
+}
+.icon-hover a:hover{
+  color:#0d74b8;
+}
+.Login__design{
+  margin-top: 80px;
+  background-color:'gray' !important;
+  width:80%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* LOGIN AND REGISTRATION */
+.design{
+  box-shadow: 1px 2px 10px rgb(141, 140, 140);
+}
+.background{
+  background-image: url('../public/image/ship.jpg');
+  height: 400px;
+  background-size: cover;
+}
+.from-design{
+  padding: 30px;
+}
+.from-design h2{
+  color: black !important;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0px 25px 0px;
+}
+.from-design input{
+  background:transparent;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+.form-control:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.btn:focus {
+   color: black; 
+   background-color: none;
+   border-color: none; 
+   box-shadow: none
+}
+.from-design a{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.btn-center{
+  text-align: center;
+}
+.btn{
+  background-color: #F7E7DA;
+  border-radius: 50px;
+  color: black;
+  width: 100px;
+  border: none;
+  text-align: center;
+}
+.btn:hover{
+  background-color: #f0dac8;
+  color: black;
+}
+.btn::after{
+  outline: none;
+}
+.background {
+  position: relative;
+}
+.background-div button{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(100%);
+}
+
+/* HOME */
+.home{
+  background-image: url('../public/image/banner.png');
+  height: 400px;
+  background-size: cover;
+}
+/* PRODUCT PAGE */
+.Image{
+  width: 100%;
+  height: 200px;
+  padding:15px;
+}
+.buttonGroup{
+  display: flex;
+  align-items: center;
+  border: 1px solid #688F4E;
+  border-radius: 31px;
+  width: 120px;
+  justify-content: center;
+}
+.buttonGroup button{
+  color: black;
+  background: transparent;
+  border: none;
+  width: 50px;
+  padding: 5px 0px;
+}
+.buttonGroup button:active{
+  background-color: none !important;
+}
+.buttonGroup button:hover{
+  background-color: none !important;
+}
+.chack_out_button{
+  border:none;
+  margin-top: 50px;
+  padding: 10px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: #688F4E;
+  color: white;
+ 
+}
